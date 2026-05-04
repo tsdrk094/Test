@@ -1,0 +1,21 @@
+{
+  "name": "todotest-playwright",
+  "version": "1.0.0",
+  "description": "Playwright test suite for todotest.site",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:auth": "npx playwright test tests/auth.spec.ts",
+    "test:ui": "npx playwright test tests/tasks-ui.spec.ts",
+    "test:api": "npx playwright test tests/tasks-api.spec.ts",
+    "report": "npx playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.59.1",
+    "@types/node": "^25.6.0",
+    "dotenv": "^17.4.2",
+    "typescript": "^6.0.3"
+  }
+}
