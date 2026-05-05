@@ -20,3 +20,9 @@ Default Next.js page title was never changed. Visible in the browser tab.
 
 **7. Card heights are inconsistent across columns**
 Same content renders at different heights depending on which column the card is in. Layout/padding issue.
+
+**8. Task card has asymmetric border styling**
+Cards display a thick colored left border for priority indication combined with a thin neutral border on the remaining three sides. The inconsistency between border widths and colors across sides looks unpolished. 
+
+**9. Card height is inconsistent**
+Task cards with identical content structure render at different heights.
