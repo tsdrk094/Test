@@ -26,18 +26,18 @@
 | Delete task | Auto | Yes |
 | Empty title → validation error | Auto | No |
 | Cancel modal without creating | Auto | No |
-| Spaces-only title | Manual | No |
-| Edit description | Manual | No |
-| Edit priority | Manual | No |
+| Spaces-only title | Manual | Yes |
+| Edit description | Manual | Yes |
+| Edit priority | Manual | Yes |
 
 ## Tasks — Drag & Drop
 
 | Test | Type | Implemented |
 |------|------|-------------|
-| Drag Backlog → Todo | Manual | No |
-| Todo → In Progress | Manual | No |
-| In Progress → Done | Manual | No |
-| Move backwards Done → In Progress | Manual | No |
+| Drag Backlog → Todo | Manual | Yes |
+| Todo → In Progress | Manual | Yes |
+| In Progress → Done | Manual | Yes |
+| Move backwards Done → In Progress | Manual | Yes |
 
 ## Tasks — API
 
@@ -57,6 +57,6 @@
 
 | Test | Type | Implemented |
 |------|------|-------------|
-| Priority colors: red / yellow / green borders | Manual | No |
-| Responsive layout on mobile | Manual | No |
-| Page title in browser tab | Manual | No |
+| Priority colors: red / yellow / green borders | Manual | Yes |
+| Responsive layout on mobile | Manual | Yes |
+| Page title in browser tab | Manual | Yes |
