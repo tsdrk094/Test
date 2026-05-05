@@ -47,6 +47,8 @@
 | POST /api/tasks → 201, correct fields in response | Auto | Yes |
 | POST without title → 400 | Auto | Yes |
 | POST without priority → 400 | Auto | Yes |
+| POST /api/tasks with title > 255 chars → 400 | Manual | No |
+| POST /api/tasks with description > 1000 chars → 400 | Manual | No |
 | GET without auth → 401 | Auto | Yes |
 | GET /api/tasks/:id → 200, single task | Auto | Yes |
 | PUT status update → verify with GET | Auto | No |
