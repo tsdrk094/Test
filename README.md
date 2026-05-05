@@ -1,6 +1,6 @@
 # todotest-playwright
 
-Playwright + TypeScript test suite for [todotest.site](https://todotest.site).
+Playwright + TypeScript test suite for [todotest.site](https://todotest.site)
 
 ## How to run
 
@@ -41,12 +41,11 @@ Auth state is saved after the first run and reused across all tests — no repea
 
 ## What I'd improve with more time
 
-- Data isolation — unique test user per run to avoid test interference
+- Data isolation — unique test user per run so tests don't interfere with each other
 - CI pipeline with GitHub Actions
-- Contract tests against the API schema (openapi.yaml)
-- More negative API cases: XSS in title, invalid UUIDs, oversized payloads
-- Full E2E: register → login → create → drag → edit → delete → logout
-
+- Contract tests — validate API responses against openapi.yaml schema
+- More negative API cases (XSS in title, invalid UUIDs, huge payloads)
+- Full E2E flow: register → login → create → drag → edit → delete → logout
+- Allure reporter for richer HTML reports with steps, screenshots and history
+- Custom fixtures for authenticated context and pre-created tasks to reduce test setup boilerplate
 ---
-
-See [CHECKLIST.md](CHECKLIST.md) for the full test checklist and [BUGS.md](BUGS.md) for found issues.
